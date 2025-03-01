@@ -2205,6 +2205,8 @@ static const muxctrl_reg_t **regs_by_chip() {
         return I6C_regs;
     case INFINITY6E:
         return I6E_regs;
+    case T21:
+        return T21_regs;
     case T31:
         return T31_regs;
     }
